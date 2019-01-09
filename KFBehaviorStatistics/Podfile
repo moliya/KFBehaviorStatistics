@@ -1,0 +1,8 @@
+platform :ios, '8.0'
+
+target 'KFBehaviorStatistics' do
+	pod 'PromiseKit', '~> 1.7'
+    # Aspects 1.4.2未上传到cocoapods，故需要指定tag，该版本提供了重要的功能（可hook不同class的同名method）
+    pod 'Aspects', :git => 'https://github.com/steipete/Aspects.git', :tag => '1.4.2'
+end
+

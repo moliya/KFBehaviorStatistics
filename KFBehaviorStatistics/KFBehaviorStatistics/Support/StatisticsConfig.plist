@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>HomeViewController</key>
+	<dict>
+		<key>Description</key>
+		<string>首页页面</string>
+		<key>PageEvents</key>
+		<dict>
+			<key>Enter</key>
+			<string>home_enter</string>
+			<key>Exit</key>
+			<string>home_exit</string>
+		</dict>
+		<key>ControlEvents</key>
+		<array>
+			<dict>
+				<key>Description</key>
+				<string>点击按钮</string>
+				<key>SEL</key>
+				<string>pushToNext:</string>
+				<key>EventID</key>
+				<string></string>
+				<key>Extra</key>
+				<array>
+					<dict>
+						<key>Description</key>
+						<string>点击title为进  入</string>
+						<key>Index</key>
+						<integer>0</integer>
+						<key>Func</key>
+						<string>.titleLabel.text</string>
+						<key>Equal</key>
+						<string>进  入</string>
+						<key>Attributes</key>
+						<dict>
+							<key>NewID</key>
+							<string>home_click1</string>
+						</dict>
+					</dict>
+					<dict>
+						<key>Description</key>
+						<string>点击title为2</string>
+						<key>Index</key>
+						<integer>0</integer>
+						<key>Func</key>
+						<string>.titleLabel.text</string>
+						<key>Equal</key>
+						<string>2</string>
+						<key>Attributes</key>
+						<dict>
+							<key>NewID</key>
+							<string>home_click1</string>
+						</dict>
+					</dict>
+				</array>
+			</dict>
+		</array>
+	</dict>
+</dict>
+</plist>
